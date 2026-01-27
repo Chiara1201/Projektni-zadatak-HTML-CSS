@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Opis">
+    <meta name="keywords" content="kljucna1, kljucna2...">
+    <meta name="author" content="Chiara Barbara Mrkić">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Kontakt | Zagreb Music Festival</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="banner">
+        <h1>ZAGREB<br>MUSIC FESTIVAL</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna stranica</a></li>
+            <li><a href="news.html">Novosti</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="gallery.html">Galerija</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="content">
+
+        <h1>Kontakt</h1>
+        <h2>Pošaljite nam upit ili nas posjetite</h2>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps?q=Trg%20bana%20Jelačića,%20Zagreb&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <form class="contact-form">
+
+            <label for="ime">Ime *</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="prezime">Prezime *</label>
+            <input type="text" id="prezime" name="prezime" required>
+
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="drzava">Država</label>
+            <select id="drzava" name="drzava">
+                <option value="">Odaberite državu</option>
+                <option value="hr">Hrvatska</option>
+                <option value="si">Slovenija</option>
+                <option value="rs">Srbija</option>
+                <option value="de">Njemačka</option>
+                <option value="other">Ostalo</option>
+            </select>
+
+            <label for="opis">Poruka</label>
+            <textarea id="opis" name="opis" rows="5"></textarea>
+
+            <button type="submit">Pošalji</button>
+
+        </form>
+
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+
+        <p>© 2026 Zagreb Music Festival. Sva prava pridržana.</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/logos/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/logos/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/logos/youtube.png" alt="YouTube">
+            </a>
+        </div>
+
+        <div class="github">
+            <a href="https://github.com/TVOJE_KORISNICKO_IME/TVOJ_REPO" target="_blank">
+                <img src="images/logos/github.png" alt="GitHub">
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
